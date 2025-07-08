@@ -10,3 +10,7 @@ class TestDiscountCalculation:
   def test_invalid_input(self):
     with pytest.raises(TypeError):
       calculate_discount("100", 10)   # Test for incorrect input type
+        def test_invalid_input(self):
+          
+    with pytest.raises(TypeError):
+      calculate_discount("100", 10)   # Test for incorrect input type
